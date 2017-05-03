@@ -1,6 +1,13 @@
-section#home-body {
-  max-width:960px;
-  margin-left:15px;
+body.home-page {
+ /* max-width:960px;
+  margin-left:15px;*/
+  background-image:url(images/fitzroy.jpg);
+  background-size:cover;
+  color:#fff;
+  background-attachment: fixed;
+}
+
+section#home{
 
 }
 
@@ -16,12 +23,24 @@ form {
 
 #nav-bar{
     list-style:none;
-    margin-left:-25px;
+    float:right;
 }
 
 #nav-bar li {
     display:inline-block;
     color:black;
+    font-weight: bold;
+    font-size:18px;
+}
+
+#nav-bar  li a:link,
+#nav-bar  li a:visited{
+   color:black;
+   padding:0px 10px;
+}
+
+p.align-bottom {
+  vertical-align: bottom;
 }
 
 img.resize {
