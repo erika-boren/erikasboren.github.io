@@ -1,0 +1,73 @@
+body#home-page {
+  background-image:url(images/fitzroy.jpg);
+  background-size:cover;
+  color:#fff;
+  background-attachment: fixed;
+}
+
+section#home-header{
+  float:left;
+  font-size:20px;
+  padding-left:20px;
+  color:white;
+}
+
+h1 {
+  font-family:helvetica;
+  font-style:oblique;
+}
+
+ul {
+  font-family:arial;
+}
+
+body.center {
+  max-width:960px;
+  margin:auto;
+  padding:20px 20px;
+}
+
+form {
+   padding:20px 20px;
+   border:1px solid;
+}
+
+#nav-bar{
+    list-style:none;
+    float:right;
+}
+
+#nav-bar li {
+    display:inline-block;
+    color:black;
+    font-weight: bold;
+    font-size:20px;
+    padding:10px 10px;
+}
+
+
+#nav-bar  li a:visited{
+  color:white;
+}
+
+img.resize {
+  max-height:75%;
+  max-width:75%;
+}
+
+
+@media screen and (max-width: 500px) {
+  img.resize {
+    min-height:10%;
+    min-width:10%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size:80%;
+  }
+  }
+}
+
+
