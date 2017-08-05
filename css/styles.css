@@ -1,0 +1,301 @@
+
+body {
+    margin:0;
+     width: 100%;
+    height: 100%;
+}
+
+.home-container {
+  margin:0;
+  min-height: 900px;
+  max-height:100%;
+  background-image: url("https://farm5.staticflickr.com/4391/35548826983_8bebf21a4c_k.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.links-icons{
+ /* background-color:rgba(255, 255, 255, 0.7);*/
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px 10px 5px 3px;
+}
+
+.links-icons2{
+  color:black;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px 10px 5px 3px;
+}
+
+.title{
+  padding-top:200px !important;
+  text-shadow: 2px 2px 3px #000;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-lg {
+  background-color:rgb(214, 214, 215);
+  padding: 5px;
+  margin: 5px 10px 5px 3px;
+}
+
+.btn-md {
+  background-color:rgb(214, 214, 215);
+  padding: 5px;
+  margin: 5px 10px 5px 3px;
+}
+
+
+
+#about-container {
+  margin:0;
+  min-height: 900px;
+  max-height:100%;
+  background-color:white;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-image: url("https://farm5.staticflickr.com/4395/36360717265_96c53976aa_k.jpg");*/
+  background-image: url("https://farm9.staticflickr.com/8868/28388332840_cf375f3959_k.jpg");
+  padding:10px;
+}
+
+.me {
+  float:right;
+  border-radius:50%;
+  padding-top:150px;
+}
+.about{
+  padding:250px 0 0 50px;
+}
+
+#portfolio-container{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0;
+  min-height: 900px;
+  max-height:100%;
+  /*background-image: url("https://farm5.staticflickr.com/4395/36360717265_96c53976aa_k.jpg");*/
+  background-image: url("https://farm9.staticflickr.com/8858/28566852532_40895f4b4c_k.jpg");
+}
+
+.portfolio-header{
+  padding-top:50px;
+  margin: 0;
+  text-shadow: 2px 2px 3px #000;
+  color:white;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding:0 10px 0 10px;
+ }
+
+.thumb {
+  margin-bottom: 10px;
+  padding:10px 0 0 10px;
+}
+.thumbnail-title{
+  font-color:black;
+  font-weight:bold;
+  padding:10px;
+  background-color: gray;
+  height: 50px;
+  width: 292px;
+  margin: auto;
+  font-size: 20px;
+}
+
+#contact{
+  /*background-image:url("https://app.box.com/representation/file_version_76834307841/image_2048_jpg/1.jpg");*/*/
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0;
+  min-height: 900px;
+  max-height:100%;
+}
+
+
+.intro {
+
+  background: #40E0D0;
+  padding: 20px 0;
+}
+
+.timeline-intro {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.timeline-intro h1 {
+  /*font-size: 50px;*/
+  color: #0E7C7B;
+  font-family: 'Roboto', sans-serif;
+  font-size:4.75em;
+}
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#timeline ul {
+  background: #40E0D0;
+  padding: 50px 0;
+}
+
+/* vertical line */
+#timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #fff;
+  color: white;
+  font-weight: bold;
+  /*left: 20px;*/
+}
+
+.star {
+  position: absolute;
+  left: -16px;
+  color:#0E7C7B;
+}
+
+/* li boxes */
+#timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding:15px;
+  background-color:#0E7C7B;
+}
+
+/* padding between div boxes and timeline */
+#timeline ul li:nth-child(odd) div {
+  left: 75px;
+}
+
+/* padding between div boxes and timeline */
+#timeline ul li:nth-child(even) div {
+  left: -470px;
+}
+
+/* even time boxes */
+#timeline ul li:nth-child(even) div time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  padding: 10px;
+  border: solid white;
+  width: 150px;
+  float:right;
+}
+
+#timeline ul li:nth-child(odd) div h3 {
+  /*padding-left:250px;*/
+  float:right;
+}
+
+/* odd time boxes */
+#timeline ul li:nth-child(odd) div time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  padding: 10px;
+  border: solid white;
+  width: 150px;
+  float:left;
+}
+
+
+/* footer start */
+.footer {
+  /*position: absolute;*/
+  margin-top:-10px;
+  /*margin:0;*/
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /*padding: 1rem;*/
+  background-color: #efefef;
+  text-align: center;
+  height:80px;
+  padding: 80px;
+}
+
+/* footer end */
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/*.timeline ul li::after {
+  transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #F45B69;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+*/
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent white transparent transparent;
+  }
+}
+
