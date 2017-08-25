@@ -173,7 +173,7 @@ body {
   width: 400px;
   padding:15px;
   background-color:#0E7C7B;
-  border-radius:5%;
+  /*border-radius:5%;*/
 }
 
 /* padding between div boxes and timeline */
@@ -199,13 +199,17 @@ body {
 }
 
 .timeline ul li:nth-child(even) h4 {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
-.timeline ul li:nth-child(odd) div h3 {
-  /*padding-left:250px;*/
+.timeline ul li:nth-child(odd) div h4 {
   float:right;
 }
+
+.timeline ul li:nth-child(even) div h5 {
+  margin-top:40px;
+}
+
 
 /* odd time boxes */
 .timeline ul li:nth-child(odd) div time {
@@ -261,11 +265,10 @@ body {
 
 @media screen and (max-width: 900px) {
   .timeline ul li div {
-    width: 250px;
+    width: 270px;
   }
   .timeline ul li:nth-child(even) div {
     left: -289px;
-    /*250+45-6*/
   }
 }
 
@@ -275,6 +278,7 @@ body {
   }
   .timeline ul li div {
     width: calc(100vw - 91px);
+    margin-left:-5px;
   }
   .timeline ul li:nth-child(even) div {
     left: 45px;
@@ -287,6 +291,24 @@ body {
     left: -15px;
     border-width: 8px 16px 8px 0;
     border-color: transparent white transparent transparent;
+  }
+
+  /* even time boxes */
+  .timeline ul li:nth-child(even) div time {
+    float:left;
+  }
+
+  .timeline ul li:nth-child(even) h4 {
+    padding-top: 20px;
+    float:right;
+    margin-top:-5px;
+  }
+  .timeline ul li:nth-child(even) h5 {
+    padding-top:15px;
+  }
+  .sabbatical-box p{
+    /*spadding:20px;*/
+    margin-top:40px;
   }
 }
 
