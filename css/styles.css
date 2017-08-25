@@ -62,7 +62,7 @@ body {
 
 
 #about-container {
-/*  margin:0;*/
+  margin:0;
   height: 100%;
   /*max-height:100%;*/
   background-attachment: fixed;
@@ -81,11 +81,11 @@ body {
   border-radius:50%;
   padding-top:150px;
 }
-.about{
+/*.about{
   padding:250px 0 0 50px;
-}
+}*/
 
-#portfolio-container{
+.portfolio-container{
   margin:0;
   height: 100%;
   /*max-height:100%;*/
@@ -128,14 +128,14 @@ body {
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.timeline-container{
+#timeline-container{
   padding:0px;
   background-image: url("../images/shattered-island.gif");
-  margin:0;
+
   /*height:100%;*/
 }
 
-#timeline h1{
+#timeline-container h1{
   color: #0E7C7B;
   font-family: 'Roboto', sans-serif;
   font-size:4.75em;
@@ -143,13 +143,13 @@ body {
   padding: 15px;
 }
 
-#timeline ul {
+#timeline-container ul {
   /*background: #40E0D0;*/
   padding: 10px 0;
 }
 
 /* vertical line */
-#timeline ul li {
+#timeline-container ul li {
   list-style-type: none;
   position: relative;
   width: 6px;
@@ -167,7 +167,7 @@ body {
 }
 
 /* li boxes */
-#timeline ul li div {
+#timeline-container ul li div {
   position: relative;
   bottom: 0;
   width: 400px;
@@ -177,17 +177,17 @@ body {
 }
 
 /* padding between div boxes and timeline */
-#timeline ul li:nth-child(odd) div {
+#timeline-container ul li:nth-child(odd) div {
   left: 75px;
 }
 
 /* padding between div boxes and timeline */
-#timeline ul li:nth-child(even) div {
+#timeline-container ul li:nth-child(even) div {
   left: -470px;
 }
 
 /* even time boxes */
-#timeline ul li:nth-child(even) div time {
+#timeline-container ul li:nth-child(even) div time {
   display: block;
   font-size: 1.2rem;
   font-weight: bold;
@@ -198,17 +198,17 @@ body {
   float:right;
 }
 
-#timeline ul li:nth-child(even) h4 {
+#timeline-container ul li:nth-child(even) h4 {
   padding-top: 10px;
 }
 
-#timeline ul li:nth-child(odd) div h3 {
+#timeline-container ul li:nth-child(odd) div h3 {
   /*padding-left:250px;*/
   float:right;
 }
 
 /* odd time boxes */
-#timeline ul li:nth-child(odd) div time {
+#timeline-container ul li:nth-child(odd) div time {
   display: block;
   font-size: 1.2rem;
   font-weight: bold;
