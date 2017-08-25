@@ -62,7 +62,7 @@ body {
 
 
 #about-container {
-/*  margin:0;*/
+  margin:0;
   height: 100%;
   /*max-height:100%;*/
   background-attachment: fixed;
@@ -81,18 +81,16 @@ body {
   border-radius:50%;
   padding-top:150px;
 }
-/*.about{
-  padding:250px 0 0 50px;
-}*/
 
-#portfolio-container{
+/*.portfolio-container{*/
+#portfolio{
   margin:0;
   height: 100%;
   /*max-height:100%;*/
-  background-attachment: fixed;
+  /*background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
   background: black;
 }
 
@@ -128,14 +126,16 @@ body {
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.timeline-container{
+.timeline {
   padding:0px;
   background-image: url("../images/shattered-island.gif");
   margin:0;
+    position: relative;
+  overflow: auto;
   /*height:100%;*/
 }
 
-#timeline h1{
+.timeline h1{
   color: #0E7C7B;
   font-family: 'Roboto', sans-serif;
   font-size:4.75em;
@@ -143,13 +143,13 @@ body {
   padding: 15px;
 }
 
-#timeline ul {
+.timeline ul {
   /*background: #40E0D0;*/
   padding: 10px 0;
 }
 
 /* vertical line */
-#timeline ul li {
+.timeline ul li {
   list-style-type: none;
   position: relative;
   width: 6px;
@@ -167,7 +167,7 @@ body {
 }
 
 /* li boxes */
-#timeline ul li div {
+.timeline ul li div {
   position: relative;
   bottom: 0;
   width: 400px;
@@ -177,17 +177,17 @@ body {
 }
 
 /* padding between div boxes and timeline */
-#timeline ul li:nth-child(odd) div {
+.timeline ul li:nth-child(odd) div {
   left: 75px;
 }
 
 /* padding between div boxes and timeline */
-#timeline ul li:nth-child(even) div {
+.timeline ul li:nth-child(even) div {
   left: -470px;
 }
 
 /* even time boxes */
-#timeline ul li:nth-child(even) div time {
+.timeline ul li:nth-child(even) div time {
   display: block;
   font-size: 1.2rem;
   font-weight: bold;
@@ -198,17 +198,17 @@ body {
   float:right;
 }
 
-#timeline ul li:nth-child(even) h4 {
+.timeline ul li:nth-child(even) h4 {
   padding-top: 10px;
 }
 
-#timeline ul li:nth-child(odd) div h3 {
+.timeline ul li:nth-child(odd) div h3 {
   /*padding-left:250px;*/
   float:right;
 }
 
 /* odd time boxes */
-#timeline ul li:nth-child(odd) div time {
+.timeline ul li:nth-child(odd) div time {
   display: block;
   font-size: 1.2rem;
   font-weight: bold;
@@ -257,39 +257,6 @@ body {
 
 /* footer end */
 
-/* EFFECTS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-/*.timeline ul li::after {
-  transition: background .5s ease-in-out;
-}
-
-.timeline ul li.in-view::after {
-  background: #F45B69;
-}
-
-.timeline ul li div {
-  visibility: hidden;
-  opacity: 0;
-  transition: all .5s ease-in-out;
-}
-
-.timeline ul li:nth-child(odd) div {
-  transform: translate3d(200px, 0, 0);
-}
-
-.timeline ul li:nth-child(even) div {
-  transform: translate3d(-200px, 0, 0);
-}
-
-.timeline ul li.in-view div {
-  transform: none;
-  visibility: visible;
-  opacity: 1;
-}
-*/
-
-/* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 @media screen and (max-width: 900px) {
@@ -312,6 +279,10 @@ body {
   .timeline ul li:nth-child(even) div {
     left: 45px;
   }
+
+  .timeline ul li:nth-child(odd) div {
+    left: 45px;
+  }
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
@@ -322,6 +293,12 @@ body {
 @media only screen and (max-device-width: 1024px) {
     .parallax {
         background-attachment: scroll;
+    }
+}
+
+@media only screen and (max-device-width: 1024px) {
+    #portfolio-container {
+
     }
 }
 
