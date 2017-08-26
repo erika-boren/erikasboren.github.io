@@ -1,4 +1,9 @@
 $(document).ready(function() {
+  $(".nav a").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+  });
+
   $(".star").on('click', function(event){
     event.preventDefault();
     var circle = $(this);
