@@ -104,7 +104,7 @@ body {
 }
 
 .portfolio-header{
-  padding:70px;
+  padding:50px;
   margin: 0;
   font-family: "Lato", sans-serif;
   color: white;
@@ -346,6 +346,12 @@ body {
     .parallax {
         background-attachment: scroll;
     }
+    .portfolio-header{
+      padding:10px;
+    }
+    .about-container {
+    background-size: 80% auto;
+  }
 }
 
 @media only screen and (max-device-width: 1024px) {
