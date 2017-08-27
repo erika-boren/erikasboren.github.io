@@ -109,7 +109,7 @@ body {
 .portfolio-header{
   padding:50px;
   margin: 0;
-  font-family: "Lato", sans-serif;
+  font-family: 'Cabin Sketch', cursive;
   color: white;
 }
 .center-block {
@@ -167,7 +167,7 @@ body {
 
 .timeline h1{
   color: #0E7C7B;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cabin Sketch', cursive;
   font-size:3.25em;
   text-align: center;
   padding: 15px;
@@ -204,6 +204,13 @@ body {
   background-color:#0E7C7B;
   /*border-radius:5%;*/
 }
+.timeline ul li {
+  font-family: 'lato', sans-serif;
+}
+
+.timeline h5{
+  font-size:18px;
+}
 
 /* padding between div boxes and timeline */
 .timeline ul li:nth-child(odd) div {
@@ -223,7 +230,7 @@ body {
   margin-bottom: 8px;
   padding: 10px;
   border: solid white;
-  width: 150px;
+  width: 140px;
   float:right;
 }
 
@@ -247,7 +254,7 @@ body {
   margin-bottom: 8px;
   padding: 10px;
   border: solid white;
-  width: 150px;
+  width: 140px;
   float:left;
 }
 
