@@ -306,7 +306,7 @@ body {
 
 @media screen and (max-width: 900px) {
   .timeline ul li div {
-    width: 270px;
+    width: 290px;
   }
   .timeline ul li:nth-child(even) div {
     left: -289px;
@@ -318,15 +318,15 @@ body {
     margin-left: 20px;
   }
   .timeline ul li div {
-    width: calc(100vw - 91px);
+    width:280px;
     margin-left:-5px;
   }
   .timeline ul li:nth-child(even) div {
-    left: 45px;
+    left: 30px;
   }
 
   .timeline ul li:nth-child(odd) div {
-    left: 45px;
+    left: 30px;
   }
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
@@ -337,6 +337,13 @@ body {
   /* even time boxes */
   .timeline ul li:nth-child(even) div time {
     float:left;
+    padding:5px;
+    width: 135px;
+  }
+
+  .timeline ul li:nth-child(odd) div time {
+    padding:5px;
+    width: 130px;
   }
 
   .timeline ul li:nth-child(even) h4 {
