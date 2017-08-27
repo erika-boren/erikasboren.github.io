@@ -16,12 +16,13 @@ body {
   border-color: #080808;
   color:white;
 }
-
 .navbar-brand{
   font-family: 'Cabin Sketch', cursive;
   font-size: 20px;
   color:white;
 }
+
+.navbar-toggle .icon-bar{ background-color: #fff;}
 
 .navbar-brand:hover{
   color:teal;
@@ -35,6 +36,11 @@ body {
 .navbar-nav a:hover{
   color:teal;
   background:transparent;
+}
+
+.navbar-nav li:hover{
+  color:teal;
+  background:blue;
 }
 
 .home-container {
