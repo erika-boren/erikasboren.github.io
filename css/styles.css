@@ -157,7 +157,7 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline {
-  padding:0;
+  padding:0px;
   background-image: url("../images/shattered-island.gif");
   margin:0;
     position: relative;
@@ -170,7 +170,7 @@ body {
   font-family: 'Cabin Sketch', cursive;
   font-size:3.25em;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
 
 .timeline ul {
@@ -204,6 +204,13 @@ body {
   background-color:#0E7C7B;
   /*border-radius:5%;*/
 }
+.timeline ul li {
+  font-family: 'lato', sans-serif;
+}
+
+.timeline h5{
+  font-size:18px;
+}
 
 /* padding between div boxes and timeline */
 .timeline ul li:nth-child(odd) div {
@@ -223,7 +230,7 @@ body {
   margin-bottom: 8px;
   padding: 10px;
   border: solid white;
-  width: 150px;
+  width: 140px;
   float:right;
 }
 
@@ -247,7 +254,7 @@ body {
   margin-bottom: 8px;
   padding: 10px;
   border: solid white;
-  width: 150px;
+  width: 140px;
   float:left;
 }
 
