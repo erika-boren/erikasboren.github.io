@@ -16,12 +16,13 @@ body {
   border-color: #080808;
   color:white;
 }
-
 .navbar-brand{
   font-family: 'Cabin Sketch', cursive;
   font-size: 20px;
   color:white;
 }
+
+.navbar-toggle .icon-bar{ background-color: #fff;}
 
 .navbar-brand:hover{
   color:teal;
@@ -35,6 +36,11 @@ body {
 .navbar-nav a:hover{
   color:teal;
   background:transparent;
+}
+
+.navbar-nav li:hover{
+  color:teal;
+  background:blue;
 }
 
 .home-container {
@@ -98,7 +104,7 @@ body {
 }
 
 .portfolio-header{
-  padding:70px;
+  padding:50px;
   margin: 0;
   font-family: "Lato", sans-serif;
   color: white;
@@ -340,6 +346,12 @@ body {
     .parallax {
         background-attachment: scroll;
     }
+    .portfolio-header{
+      padding:10px;
+    }
+    .about-container {
+    background-size: 80% auto;
+  }
 }
 
 @media only screen and (max-device-width: 1024px) {
